@@ -1,0 +1,15 @@
+{
+    "pagePanel": {
+        "version": "0.3.0",
+        "files" : {
+            "build/pagePanel.0.3.0.js" : [
+                "src/pagePanel.js"
+            ]
+        },
+        "module": "Nova.pagePanel",
+        "src": "src/pagePanel.js",
+        "requires": {
+            "widget": "module/widget/1.0.2/widget"
+        }
+    }
+}
