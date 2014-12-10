@@ -1,8 +1,8 @@
 {
     "pagePanel": {
-        "version": "0.3.0",
+        "version": "0.4.0",
         "files" : {
-            "build/pagePanel.0.3.0.js" : [
+            "build/pagePanel.0.4.0.js" : [
                 "src/pagePanel.js"
             ]
         },
