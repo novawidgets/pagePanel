@@ -1,13 +1,13 @@
 (function(root, factory) {
 if(typeof exports === 'object') {
-module.exports = factory();
+module.exports = factory.apply(root);
 } else if(typeof define === 'function' && define.amd) {
-define(['module/widget/1.0.2/widget'], factory);
+define(['module/widget/1.0.2/widget'], function() {return factory.apply(root, arguments)});
 } else {
-root['PagePanel'] = factory();
+root['PagePanel'] = factory.apply(root);
 }
-})(this, function(Widget) {
-Widget = Widget || this.Widget;
+})(this, function(widget) {
+widget = widget || this.widget;
 
 
 	var PagePanel = Widget.extend({
